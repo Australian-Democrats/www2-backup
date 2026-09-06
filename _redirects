@@ -1,0 +1,22 @@
+/index.html            /                 301
+/join.html             /join             301
+/donate.html           /donate           301
+/policy.html           /policy           301
+/about.html            /about            301
+/history.html          /history          301
+/governance.html       /governance       301
+/acknowledgement.html  /acknowledgement  301
+/contact.html          /contact          301
+/news.html             /news             301
+/podcasts.html         /podcasts         301
+/rortswatch.html       /rortswatch       301
+/thank-you.html        /thank-you        301
+/our-people/index.html /our-people       301
+/policy-areas/:area/index.html /policy-areas/:area 301
+
+# Old Qomon-hosted form/page URLs. The pre-rebuild site 301'd to these, and
+# browsers replay those cached permanent redirects without contacting the
+# server — so the stale destinations must keep landing somewhere useful.
+/forms/:id/join-the-australian-democrats      /join     301
+/forms/:id/donate-to-the-australian-democrats /donate   301
+/pages/:id/contact-us                         /contact  301
