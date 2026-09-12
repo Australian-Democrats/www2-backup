@@ -1,0 +1,25 @@
+# ==================================================================
+#   AUSTRALIAN DEMOCRATS — WEBSITE MENU  (top navigation bar)
+# ==================================================================
+#   This one file controls the menu on EVERY page of the website.
+#
+#   One menu item per line, written as:
+#       Label | link
+#
+#   • Add  | button   to make it a GREEN button (like "Join us")
+#   • Add  | gold     to make it a GOLD button  (like "Donate")
+#   • Lines that start with #  are ignored (notes only).
+#   • Links are page files, e.g.  about.html
+#     (you can also use a full https://… web address)
+#
+#   Save the file and commit to GitHub — the whole site updates.
+#   If this file is deleted or empty, the site falls back to the
+#   built-in default (exactly the items listed below).
+# ==================================================================
+
+About | about.html
+Our Policy | policy.html
+Our People | our-people/index.html
+Contact | contact.html
+Join us | join.html | button
+Donate | donate.html | gold

@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="en-AU"> <head><meta name="robots" content="noindex"><script>document.addEventListener("submit",function(e){e.preventDefault();alert("Forms are unavailable on the backup site. Please try the main site: www.democrats.org.au");},true);</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Donations Register — Australian Democrats</title><meta name="description" content><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="240x240" href="/favicon-240.png"><link rel="apple-touch-icon" href="/favicon-240.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Australian Democrats","alternateName":"The Australian Democrats","url":"https://www.democrats.org.au","logo":"https://www.democrats.org.au/assets/brand/logo-horizontal.png","slogan":"Keep the bastards honest.","foundingDate":"1977","description":"A centrist Australian political party founded in 1977, built around political accountability, integrity and evidence-based policy.","sameAs":["https://www.facebook.com/australiandemocrats","https://x.com/AustDems","https://www.instagram.com/ausdemocrats/","https://www.linkedin.com/company/australian-democrats/","https://www.youtube.com/@australiandemocrats3311","https://australiandemocrats.substack.com"]}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800&display=swap" rel="stylesheet"><!-- production stylesheets (absolute), AFTER global.css so our designs win --><link rel="stylesheet" href="/assets/css/site.css"><link rel="stylesheet" href="/assets/css/forms.css"><link rel="stylesheet" href="/assets/css/rorts.css"><style>
+    :root{--ad-green:#29a895;--ad-green-deep:#15655a;--ad-gold:#fcd666;--ad-ink:#16221f}
+    body{font-family:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;margin:0;background:#fff;color:#1d2a28}
+    /* paper header fallbacks (full styles in site.css) */
+    .adw-header{background:rgba(253,251,244,.92);border-bottom:1px solid #e7e2d4}
+    .adw-nav-join{background:#1f877a;color:#fff}
+    .adw-nav-donate{background:#fcd666;color:#1d2a28}
+  </style><style>*,*:before,*:after{box-sizing:border-box}html{-webkit-text-size-adjust:100%}img,svg,video{max-width:100%}:root{--ad-green:#29a895;--ad-green-deep:#15655a;--ad-gold:#fcd666;--ad-ink:#16221f}
+</style></head> <body data-page="/about"><div id="backup-banner" style="position:sticky;top:0;z-index:99999;background:#fcd666;color:#1a1a1a;padding:10px 16px;text-align:center;font:600 15px/1.4 sans-serif;">You&rsquo;re viewing the backup site &mdash; forms and donations are unavailable. <a href="https://www.democrats.org.au" style="color:#1a1a1a;">www.democrats.org.au</a></div>  <script>document.documentElement.classList.add('adw-js');</script> <header id="site-header"> <a class="adw-skip" href="#adw-content">Skip to content</a> <div class="adw-header" data-mlogo="panel"> <div class="adw-progress" aria-hidden="true"><span id="adProgressFill"></span></div> <div class="adw-nav"> <a class="adw-nav-logo" href="/" aria-label="Australian Democrats home"><img src="/assets/brand/fulltextlogo-yellow-and-white.png" alt="Australian Democrats"></a> <button class="adw-nav-toggle" id="adwToggle" aria-label="Open menu" aria-expanded="false" aria-controls="adwNav"><span class="adw-burger"></span></button> <nav class="adw-nav-links" id="adwNav">  <span class="adw-nav-plain"> <a href="/about" class="is-active">About</a><a href="/policy">Our Policy</a><a href="/our-people">Our People</a><a href="/contact">Contact</a> </span> <span class="adw-nav-ctas"> <a class="adw-nav-donate" href="/donate"><span>Donate</span></a> <a class="adw-nav-join" href="/join"><span>Join us</span></a> </span> </nav> </div></div> </header>  <style>
+/* Donations Register — interactive data table (brand green #29a895 / gold #fcd666) */
+.dr-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin:6px 0 30px}
+.dr-stat{background:#fff;border:1px solid var(--ad-border);border-top:4px solid var(--ad-green);border-radius:16px;padding:20px 18px;box-shadow:0 14px 30px -24px rgba(20,60,54,.4)}
+.dr-stat .v{font-size:30px;font-weight:900;line-height:1;color:var(--ad-green-deep);letter-spacing:-.5px}
+.dr-stat .k{display:block;margin-top:8px;font-size:12.5px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--ad-ink)}
+.dr-stat .s{display:block;margin-top:3px;font-size:13px;color:#5b6b66}
+@media(max-width:860px){.dr-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.dr-stats{grid-template-columns:1fr}}
+
+.dr-toolbar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin:0 0 14px}
+.dr-search{position:relative;flex:1;min-width:240px}
+.dr-search input{width:100%;box-sizing:border-box;padding:13px 16px 13px 44px;font:inherit;font-size:15px;color:var(--ad-ink);background:#fff;border:1px solid var(--ad-border);border-radius:var(--ad-radius-pill,999px);box-shadow:0 6px 24px rgba(22,34,31,.06);transition:border-color .15s,box-shadow .15s}
+.dr-search input:focus{outline:none;border-color:var(--ad-green);box-shadow:0 0 0 3px rgba(41,168,149,.18)}
+.dr-search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--ad-green-deep);pointer-events:none}
+.dr-count{font-size:13.5px;font-weight:700;color:#5b6b66;white-space:nowrap}
+
+.dr-tablewrap{background:#fff;border:1px solid var(--ad-border);border-radius:18px;overflow:hidden;box-shadow:0 20px 50px -30px rgba(20,60,54,.45)}
+.dr-table{width:100%;border-collapse:collapse;font-size:15px}
+.dr-table th,.dr-table td{padding:14px 18px;text-align:left}
+.dr-table thead th{background:var(--ad-green-deep);color:#fff;font-size:12.5px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;white-space:nowrap;cursor:pointer;user-select:none;position:relative}
+.dr-table thead th:hover{background:#125349}
+.dr-table thead th .ar{display:inline-block;width:9px;margin-left:7px;opacity:.45;font-size:11px;transition:opacity .12s}
+.dr-table thead th[aria-sort="ascending"] .ar,.dr-table thead th[aria-sort="descending"] .ar{opacity:1;color:var(--ad-gold)}
+.dr-table thead th.num,.dr-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dr-table tbody tr{border-top:1px solid var(--ad-border)}
+.dr-table tbody tr:nth-child(even){background:var(--ad-cream-soft)}
+.dr-table tbody tr:hover{background:rgba(41,168,149,.07)}
+.dr-table td.rank{font-weight:900;color:var(--ad-green-deep);width:54px}
+.dr-table td.donor{font-weight:700;color:var(--ad-ink)}
+.dr-table td.amount{font-weight:800;color:var(--ad-ink)}
+.dr-empty{padding:34px;text-align:center;color:#5b6b66;font-weight:600}
+.dr-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:14px 18px;background:var(--ad-cream-soft);border-top:1px solid var(--ad-border);font-size:13.5px;font-weight:700;color:var(--ad-ink)}
+@media(max-width:560px){.dr-table th,.dr-table td{padding:12px 12px}.dr-table .col-count{display:none}}
+</style>
+<section class="adw-pagehero"><div class="adw-pagehero-img" style="background-color:#16655a;background-image:linear-gradient(135deg,#2eb7a2 0%,#1f877a 60%,#15655a 100%)" aria-hidden="true"></div><div class="adw-wrap"><span class="adw-eyebrow light">Governance</span><h1>Donations Register</h1><p class="adw-pagehero-impact">Our public record of donations — searchable, sortable, and open. Because a party that won’t sell out should show its receipts.</p></div></section><section class="adw-section"><div class="adw-wrap">
+
+<div class="adw-prose" style="max-width:860px;margin-bottom:6px"><p>This page lists all donations received by the Australian Democrats over $1,500, including regular donations that cumulatively reach this amount, for each financial year. You can find more information on our <a href="/donations-policy">Donations Policy here</a>.</p></div>
+
+<div class="dr-stats">
+<div class="dr-stat"><span class="v">$47,840</span><span class="k">Total reported</span><span class="s">across the register</span></div>
+<div class="dr-stat"><span class="v">13</span><span class="k">Individual donors</span><span class="s">on record</span></div>
+<div class="dr-stat"><span class="v">14</span><span class="k">Donations recorded</span><span class="s">individual entries</span></div>
+<div class="dr-stat"><span class="v">2024/2025</span><span class="k">Most recent FY</span><span class="s">4 years on record</span></div>
+<div class="dr-stat"><span class="v">$1,500</span><span class="k">Reporting threshold</span><span class="s">published within 7 days</span></div>
+</div>
+
+<h2 style="font-size:clamp(22px,3vw,30px);font-weight:900;color:var(--ad-ink);margin:0 0 6px">Top contributors</h2>
+<p style="color:#5b6b66;margin:0 0 18px;max-width:60ch">Donors grouped and summed across financial years. Search by name, or click any column heading to sort.</p>
+
+<div class="dr-toolbar">
+<label class="dr-search"><span class="adw-visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search donors</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><input id="drSearch" type="search" placeholder="Search by donor name…" autocomplete="off" aria-controls="drBody"></label>
+<span class="dr-count" id="drCount"></span>
+</div>
+
+<div class="dr-tablewrap">
+<p class="adw-hist-note" style="max-width:900px;margin:18px auto;background:#fff7e0;border:1px solid #f0d98a;border-radius:12px;padding:14px 18px;font-weight:700;color:#7a5e00">📌 This is the <b>historical</b> donations register. An updated register is coming soon.</p>
+<table class="dr-table" id="drTable">
+<thead><tr>
+<th class="num" data-sort="rank" data-type="num" aria-sort="ascending" scope="col"># <span class="ar">▲</span></th>
+<th data-sort="donor" data-type="text" scope="col">Donor <span class="ar">▲</span></th>
+<th class="num col-count" data-sort="count" data-type="num" scope="col">Donations <span class="ar">▲</span></th>
+<th class="num" data-sort="amount" data-type="num" scope="col">Amount <span class="ar">▲</span></th>
+</tr></thead>
+<tbody id="drBody">
+<tr data-rank="1" data-donor="Lyn Allison" data-count="1" data-amount="12103"><td class="num rank">1</td><td class="donor">Lyn Allison</td><td class="num col-count">1</td><td class="num amount">$12,103</td></tr>
+<tr data-rank="2" data-donor="Christopher Simpson" data-count="1" data-amount="5000"><td class="num rank">2</td><td class="donor">Christopher Simpson</td><td class="num col-count">1</td><td class="num amount">$5,000</td></tr>
+<tr data-rank="3" data-donor="Luke Arbuckle" data-count="1" data-amount="5000"><td class="num rank">3</td><td class="donor">Luke Arbuckle</td><td class="num col-count">1</td><td class="num amount">$5,000</td></tr>
+<tr data-rank="4" data-donor="Elana Mitchell" data-count="2" data-amount="4987"><td class="num rank">4</td><td class="donor">Elana Mitchell</td><td class="num col-count">2</td><td class="num amount">$4,987</td></tr>
+<tr data-rank="5" data-donor="Susan Hickey" data-count="1" data-amount="4000"><td class="num rank">5</td><td class="donor">Susan Hickey</td><td class="num col-count">1</td><td class="num amount">$4,000</td></tr>
+<tr data-rank="6" data-donor="Steven Johnson" data-count="1" data-amount="3300"><td class="num rank">6</td><td class="donor">Steven Johnson</td><td class="num col-count">1</td><td class="num amount">$3,300</td></tr>
+<tr data-rank="7" data-donor="Keith and Janet Keegan" data-count="1" data-amount="2800"><td class="num rank">7</td><td class="donor">Keith and Janet Keegan</td><td class="num col-count">1</td><td class="num amount">$2,800</td></tr>
+<tr data-rank="8" data-donor="Carly Noble" data-count="1" data-amount="2000"><td class="num rank">8</td><td class="donor">Carly Noble</td><td class="num col-count">1</td><td class="num amount">$2,000</td></tr>
+<tr data-rank="9" data-donor="Fay Lawrence" data-count="1" data-amount="2000"><td class="num rank">9</td><td class="donor">Fay Lawrence</td><td class="num col-count">1</td><td class="num amount">$2,000</td></tr>
+<tr data-rank="10" data-donor="Steven Baty" data-count="1" data-amount="2000"><td class="num rank">10</td><td class="donor">Steven Baty</td><td class="num col-count">1</td><td class="num amount">$2,000</td></tr>
+<tr data-rank="11" data-donor="Alan Ryan" data-count="1" data-amount="1650"><td class="num rank">11</td><td class="donor">Alan Ryan</td><td class="num col-count">1</td><td class="num amount">$1,650</td></tr>
+<tr data-rank="12" data-donor="Clive Jackson" data-count="1" data-amount="1500"><td class="num rank">12</td><td class="donor">Clive Jackson</td><td class="num col-count">1</td><td class="num amount">$1,500</td></tr>
+</tbody>
+</table>
+<div class="dr-empty" id="drEmpty" hidden>No donors match your search.</div>
+<div class="dr-foot"><span id="drShowing">Showing all 12 listed contributors</span><span>Listed contributions total $46,340</span></div>
+</div>
+
+<p style="color:var(--ad-ink-muted);font-size:13.5px;margin:14px 0 0;max-width:70ch">Figures are grouped and summed by donor across financial years, as published by the Australian Democrats. The register reports cumulative donations of more than $1,500 in each financial year, in line with our Donations Policy.</p>
+
+<div class="adw-cta" style="margin-top:46px"><h2>Small donations from real people.</h2><p>That’s how we fund our campaigns — and why every contribution above $1,500 is published here. Add your name and help keep us independent.</p><div class="cta" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap"><a class="adw-btn adw-btn-gold" href="/donate">Donate →</a><a class="adw-btn adw-btn-out" href="/governance">Back to Governance</a></div></div>
+
+</div></section>   <footer id="site-footer"><div class="adw-footer"><div class="adw-foot"> <div class="adw-foot-top"> <div class="adw-foot-brand"> <img class="wm" src="/assets/brand/logo-horizontal.png" alt="Australian Democrats" style="filter:brightness(0) invert(1)"> <p>The people’s watchdog — common-sense, principled, compassionate politics.</p> <p class="adw-foot-ack"><a href="/acknowledgement">Acknowledgement of Country</a></p>  <div class="adw-foot-social"><a href="https://www.facebook.com/australiandemocrats" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.5V12h2.7l-.4 2.9h-2.3v7A10 10 0 0022 12z"/></svg></a><a href="https://x.com/AustDems" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5-6.6L5.4 22H2.3l8.1-9.3L1.6 2h7l4.5 6 5.8-6zm-1.2 18h1.9L7.2 4H5.2z"/></svg></a><a href="https://www.instagram.com/ausdemocrats/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.7 0 3 0 4.1.06 1.1.05 1.8.24 2.5.5.7.3 1.2.6 1.8 1.2.6.6.9 1.1 1.2 1.8.26.7.45 1.4.5 2.5.06 1.1.06 1.4.06 4.1s0 3-.06 4.1c-.05 1.1-.24 1.8-.5 2.5-.3.7-.6 1.2-1.2 1.8-.6.6-1.1.9-1.8 1.2-.7.26-1.4.45-2.5.5-1.1.06-1.4.06-4.1.06s-3 0-4.1-.06c-1.1-.05-1.8-.24-2.5-.5-.7-.3-1.2-.6-1.8-1.2-.6-.6-.9-1.1-1.2-1.8-.26-.7-.45-1.4-.5-2.5C2 15 2 14.7 2 12s0-3 .06-4.1c.05-1.1.24-1.8.5-2.5.3-.7.6-1.2 1.2-1.8.6-.6 1.1-.9 1.8-1.2.7-.26 1.4-.45 2.5-.5C9 2 9.3 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm0 1.8a3.2 3.2 0 110 6.4 3.2 3.2 0 010-6.4zM17.8 6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg></a><a href="https://www.linkedin.com/company/australian-democrats/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 002.5 6 2.5 2.5 0 005 8.5 2.5 2.5 0 007.5 6 2.5 2.5 0 004.98 3.5zM3 9h4v12H3zM10 9h3.8v1.6h.05c.53-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg></a><a href="https://www.youtube.com/@australiandemocrats3311" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5A2.5 2.5 0 001.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 001.8 1.8C4.7 19 12 19 12 19s7.3 0 8.8-.5a2.5 2.5 0 001.8-1.8c.4-1.5.4-4.7.4-4.7zM10 15V9l5 3z"/></svg></a><a href="https://australiandemocrats.substack.com" target="_blank" rel="noopener" aria-label="Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a></div> </div> <div class="adw-foot-cols"> <div><h4>Get involved</h4><a href="/join">Join</a><a href="/donate">Donate</a><a href="/get-involved">Volunteer</a><a href="/contact">Contact</a></div><div><h4>The party</h4><a href="/about">About us</a><a href="/our-people">Our People</a><a href="/policy">Our Policy</a><a href="/history">Our History</a><a href="/governance">Governance</a></div><div><h4>Media</h4><a href="/media">Media centre</a><a href="/news">The Democrat</a><a href="/podcasts">Podcasts</a><a href="/rortswatch">Rorts Watch</a></div><div><h4>Games &amp; Entertainment</h4><a href="/why-were-different">Twelve Rooms</a><a href="https://haines.democrats.org.au" target="_blank" rel="noopener">Operation Haines</a><a href="https://integritydefence.democrats.org.au" target="_blank" rel="noopener">Integrity Defence</a><a href="/games">All games</a></div> </div> </div> <p class="adw-foot-credit">Designed and built in-house, with care, by the volunteer IT team of the Australian Democrats.</p> <p class="adw-foot-terms"><a href="/conditions-of-use">Conditions of Use</a></p> <p class="adw-foot-auth">Authorised by A. Castrique, Australian Democrats, 15 Bassett Street, NAIRNE, SA, 5252.</p> </div></div></footer> <div class="adw-sfab" id="adwSfab"> <button class="adw-sfab-btn" aria-label="Follow the Australian Democrats" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 00-2.4 1.2l-7-3.5a3 3 0 000-1.4l7-3.5A3 3 0 1015 6l-7 3.5a3 3 0 100 5L15 18a3 3 0 103-2z"></path></svg></button> <div class="adw-sfab-icons"><a href="https://www.facebook.com/australiandemocrats" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.5V12h2.7l-.4 2.9h-2.3v7A10 10 0 0022 12z"/></svg></a><a href="https://x.com/AustDems" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5-6.6L5.4 22H2.3l8.1-9.3L1.6 2h7l4.5 6 5.8-6zm-1.2 18h1.9L7.2 4H5.2z"/></svg></a><a href="https://www.instagram.com/ausdemocrats/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.7 0 3 0 4.1.06 1.1.05 1.8.24 2.5.5.7.3 1.2.6 1.8 1.2.6.6.9 1.1 1.2 1.8.26.7.45 1.4.5 2.5.06 1.1.06 1.4.06 4.1s0 3-.06 4.1c-.05 1.1-.24 1.8-.5 2.5-.3.7-.6 1.2-1.2 1.8-.6.6-1.1.9-1.8 1.2-.7.26-1.4.45-2.5.5-1.1.06-1.4.06-4.1.06s-3 0-4.1-.06c-1.1-.05-1.8-.24-2.5-.5-.7-.3-1.2-.6-1.8-1.2-.6-.6-.9-1.1-1.2-1.8-.26-.7-.45-1.4-.5-2.5C2 15 2 14.7 2 12s0-3 .06-4.1c.05-1.1.24-1.8.5-2.5.3-.7.6-1.2 1.2-1.8.6-.6 1.1-.9 1.8-1.2.7-.26 1.4-.45 2.5-.5C9 2 9.3 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm0 1.8a3.2 3.2 0 110 6.4 3.2 3.2 0 010-6.4zM17.8 6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg></a><a href="https://www.linkedin.com/company/australian-democrats/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 002.5 6 2.5 2.5 0 005 8.5 2.5 2.5 0 007.5 6 2.5 2.5 0 004.98 3.5zM3 9h4v12H3zM10 9h3.8v1.6h.05c.53-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg></a><a href="https://www.youtube.com/@australiandemocrats3311" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5A2.5 2.5 0 001.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 001.8 1.8C4.7 19 12 19 12 19s7.3 0 8.8-.5a2.5 2.5 0 001.8-1.8c.4-1.5.4-4.7.4-4.7zM10 15V9l5 3z"/></svg></a><a href="https://australiandemocrats.substack.com" target="_blank" rel="noopener" aria-label="Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a></div> </div> <div class="adw-wings" aria-label="Support the Australian Democrats"> <a class="adw-wing adw-wing-donate" href="/donate"><span>Donate</span></a> <a class="adw-wing adw-wing-join" href="/join"><span>Join us</span></a> </div><div class="adw-gfab" id="adwGfab"> <button type="button" class="adw-gfab-btn" aria-label="Haines arcade" aria-expanded="false"><svg viewBox="0 0 16 14" shape-rendering="crispEdges" aria-hidden="true"><g fill="#eafff9"><rect x="3" y="0" width="2" height="2"></rect><rect x="11" y="0" width="2" height="2"></rect><rect x="5" y="2" width="6" height="2"></rect><rect x="3" y="4" width="10" height="2"></rect><rect x="1" y="6" width="14" height="2"></rect><rect x="1" y="8" width="2" height="2"></rect><rect x="5" y="8" width="6" height="2"></rect><rect x="13" y="8" width="2" height="2"></rect><rect x="3" y="10" width="2" height="2"></rect><rect x="11" y="10" width="2" height="2"></rect><rect x="1" y="12" width="2" height="2"></rect><rect x="13" y="12" width="2" height="2"></rect></g><g fill="#fcd666"><rect x="5" y="4" width="2" height="2"></rect><rect x="9" y="4" width="2" height="2"></rect></g></svg></button> <div class="adw-gfab-items"> <a href="https://haines.democrats.org.au" target="_blank" rel="noopener">OPERATION HAINES</a> <a href="https://integritydefence.democrats.org.au" target="_blank" rel="noopener">INTEGRITY DEFENCE</a> <a href="/why-were-different">TWELVE ROOMS</a> <a href="/rortswatch">RORTS WATCH</a> </div> </div>  <script src="/assets/js/site-astro.js"></script> <script>(function(){
+  var table=document.getElementById('drTable');
+  if(!table) return;
+  var body=document.getElementById('drBody');
+  var search=document.getElementById('drSearch');
+  var emptyMsg=document.getElementById('drEmpty');
+  var countEl=document.getElementById('drCount');
+  var showingEl=document.getElementById('drShowing');
+  var heads=Array.prototype.slice.call(table.querySelectorAll('thead th[data-sort]'));
+  var rows=Array.prototype.slice.call(body.querySelectorAll('tr'));
+  var TOTAL=rows.length;
+
+  function fmt(){
+    var visible=rows.filter(function(r){return !r.hidden;}).length;
+    countEl.textContent=visible+' of '+TOTAL+' donors';
+    showingEl.textContent= visible===TOTAL ? 'Showing all '+TOTAL+' listed contributors' : 'Showing '+visible+' of '+TOTAL+' contributors';
+  }
+
+  // ── filter ──
+  function applyFilter(){
+    var q=(search.value||'').trim().toLowerCase();
+    var any=false;
+    rows.forEach(function(r){
+      var name=(r.getAttribute('data-donor')||'').toLowerCase();
+      var match=!q || name.indexOf(q)!==-1;
+      r.hidden=!match;
+      if(match) any=true;
+    });
+    emptyMsg.hidden=any;
+    fmt();
+  }
+  search.addEventListener('input',applyFilter);
+
+  // ── sort ──
+  function sortBy(key,type,dir){
+    var mult = dir==='descending' ? -1 : 1;
+    var sorted=rows.slice().sort(function(a,b){
+      var av=a.getAttribute('data-'+key), bv=b.getAttribute('data-'+key);
+      if(type==='num'){ av=parseFloat(av)||0; bv=parseFloat(bv)||0; return (av-bv)*mult; }
+      return av.localeCompare(bv,'en',{sensitivity:'base'})*mult;
+    });
+    sorted.forEach(function(r){ body.appendChild(r); });
+  }
+  heads.forEach(function(th){
+    th.addEventListener('click',function(){
+      var key=th.getAttribute('data-sort');
+      var type=th.getAttribute('data-type')||'text';
+      var cur=th.getAttribute('aria-sort');
+      var dir = cur==='ascending' ? 'descending' : 'ascending';
+      heads.forEach(function(h){ h.removeAttribute('aria-sort'); var ar=h.querySelector('.ar'); if(ar) ar.textContent='▲'; });
+      th.setAttribute('aria-sort',dir);
+      var ar=th.querySelector('.ar'); if(ar) ar.textContent= dir==='ascending' ? '▲' : '▼';
+      sortBy(key,type,dir);
+    });
+  });
+
+  fmt();
+})();</script> </body></html>

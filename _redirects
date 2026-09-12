@@ -1,0 +1,34 @@
+/index.html            /                 301
+/join.html             /join             301
+/donate.html           /donate           301
+/policy.html           /policy           301
+/about.html            /about            301
+/history.html          /history          301
+/governance.html       /governance       301
+/acknowledgement.html  /acknowledgement  301
+/contact.html          /contact          301
+/news.html             /news             301
+/podcasts.html         /podcasts         301
+/rortswatch.html       /rortswatch       301
+/thank-you.html        /thank-you        301
+/our-people/index.html /our-people       301
+/policy-areas/:area/index.html /policy-areas/:area 301
+
+# Governance documents retired by PR #278. /workplace-policy and
+# /whistleblower-policy were live, linked-to pages (member emails, inductions)
+# replaced by the one "How We Work Together" framework — so they redirect to it
+# rather than 404. Workers static assets do NOT normalise trailing slashes, so
+# each path needs both forms (the site itself serves the slashed one). Static
+# rules sit above the :id placeholder rules below, which is the order Cloudflare
+# evaluates most cheaply.
+/workplace-policy       /how-we-work-together  301
+/workplace-policy/      /how-we-work-together  301
+/whistleblower-policy   /how-we-work-together  301
+/whistleblower-policy/  /how-we-work-together  301
+
+# Old Qomon-hosted form/page URLs. The pre-rebuild site 301'd to these, and
+# browsers replay those cached permanent redirects without contacting the
+# server — so the stale destinations must keep landing somewhere useful.
+/forms/:id/join-the-australian-democrats      /join     301
+/forms/:id/donate-to-the-australian-democrats /donate   301
+/pages/:id/contact-us                         /contact  301
