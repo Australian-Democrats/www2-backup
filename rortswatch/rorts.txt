@@ -1,0 +1,381 @@
+# ==================================================================
+#   AUSTRALIAN DEMOCRATS — RORTS WATCH
+# ==================================================================
+#   Add a rort by copying one block below and filling it in.
+#   Separate each rort with a line of three dashes:   ---
+#
+#     NAME         short name of the rort
+#     JURISDICTION e.g. Federal, Victoria, NSW
+#     CATEGORY     e.g. Grants, Consultants, Infrastructure
+#     COST         e.g. $100 million   (or 100m, 500k ...)
+#     SEVERITY     a number 1 (mild) to 10 (egregious)
+#     DESCRIPTION  what happened, in plain English
+#     ACTION       what was done / the outcome (optional)
+#
+#   Lines starting with #  are ignored.
+#   Save and commit to GitHub - the Rorts Watch page updates itself,
+#   including the search, filters, sorting and the totals at the top.
+#
+#   These entries are drawn from the Australian Democrats' Rorts Watch
+#   archive. The list is not comprehensive - it is our attempt to keep
+#   track of rorts undertaken by political leaders across all
+#   jurisdictions in Australia.
+# ==================================================================
+
+NAME: NDIS fraud
+JURISDICTION: Federal
+CATEGORY: Fraud
+COST: $3.7 billion
+SEVERITY: 8
+DESCRIPTION: About $3.7 billion a year — roughly 8.3% of the scheme's ~$52 billion annual cost — is lost to fraud and non-compliant payments, according to the head of the NDIS Fraud Fusion Taskforce. Much of the organised fraud is run by high-end crime groups operating from overseas. Unchecked rorting by some providers jeopardises the scheme's future and threatens its availability to those with legitimate needs.
+ACTION: The figure combines intentional fraud and unintentional misuse — the taskforce has said there is no statistically valid way to separate the two.
+
+---
+
+NAME: Major parties reward themselves with election financing
+JURISDICTION: Federal
+CATEGORY: Election funding
+COST: $90 million
+SEVERITY: 8
+DESCRIPTION: Finance reform bill passes with no scrutiny, expenditure capped at $90m.
+
+---
+
+NAME: Rich sports handouts
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $50.5 million
+SEVERITY: 7
+DESCRIPTION: Brisbane Broncos get $5m for a training centre, West Coast Eagles $10m, Collingwood AFL $15m, Sydney Swans $15m, Clay Target Assn $5.5m for a convention centre - all clubs making healthy profits.
+
+---
+
+NAME: 'Cabinet' a nonsense
+JURISDICTION: Federal
+CATEGORY: Transparency
+SEVERITY: 6
+DESCRIPTION: Justice White rules FOI does not apply because National Cabinet is not a real cabinet, opening the way for discovering what's behind 'gas-led recovery' spending.
+
+---
+
+NAME: Car parks
+JURISDICTION: Federal
+CATEGORY: Infrastructure
+COST: $660.4 million
+SEVERITY: 9
+DESCRIPTION: $660.4 million spent on commuter car parks with 77% in LNP or would-be LNP seats, picked by LNP senators and candidates. No policy objectives or assessment on merit.
+
+---
+
+NAME: Water rights
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $80 million
+SEVERITY: 9
+DESCRIPTION: $80m to buy non-existent water rights from a previously Angus Taylor-controlled offshore entity, approved by Barnaby Joyce.
+ACTION: Update 19/3: Auditor-General asking why the $13m overspend on water.
+
+---
+
+NAME: Sports rorts
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $102.5 million
+SEVERITY: 9
+DESCRIPTION: $102.5 million handed out in grants with no legal authority, by-passing proper process to largely benefit marginal electorates and well-heeled clubs.
+ACTION: Update 19/3: Senate Select Committee inquiry reports on political lines, unlikely to deliver reform.
+
+---
+
+NAME: Lib pollster paid for secret research
+JURISDICTION: Federal
+CATEGORY: Consultants
+COST: $500,000
+SEVERITY: 6
+DESCRIPTION: Jim Reed, a Liberal Party pollster with Crosby Textor, paid $500k for NCCC market research that can't be made public. No tender.
+
+---
+
+NAME: Assistant Treasurer over-claims
+JURISDICTION: Federal
+CATEGORY: Expenses
+COST: $2,000
+SEVERITY: 4
+DESCRIPTION: Stuart Robert claimed $2k a month for internet expenses.
+
+---
+
+NAME: Sharma insider trades
+JURISDICTION: Federal
+CATEGORY: Insider trading
+COST: $715 million
+SEVERITY: 7
+DESCRIPTION: Liberal MP Dave Sharma bought shares in Qantas just as the announcement was made to provide a relief package of $715m to the airlines. Months later, just before Morrison agreed with CSL to make millions of doses of a Covid vaccine, Sharma bought CSL shares.
+
+---
+
+NAME: Staffer made ACCC commissioner
+JURISDICTION: Federal
+CATEGORY: Jobs for mates
+COST: $136,000
+SEVERITY: 5
+DESCRIPTION: Peter Crone, former adviser to PM Howard, gave economic advice costing $136k and in December was appointed to the Australian Competition and Consumer Commission.
+ACTION: 11/12.
+
+---
+
+NAME: Marketing deal for insider
+JURISDICTION: Federal
+CATEGORY: Consultants
+COST: $189,000
+SEVERITY: 5
+DESCRIPTION: Richard Forbes, former media adviser to the Nationals, wins a $189k bid for spin on how well the bushfire recovery is going. No tender.
+
+---
+
+NAME: $10m for Visy stacker
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $10 million
+SEVERITY: 7
+DESCRIPTION: Visy donated $3m, about half each to the Libs and Labor, before the 2019 election. The $10m for the stacker was paid out of the bushfire recovery fund.
+
+---
+
+NAME: Off to the races on the public purse
+JURISDICTION: Federal
+CATEGORY: Expenses
+SEVERITY: 6
+DESCRIPTION: 57 MPs travelled to, in, or from Melbourne around the time of the 2019 Melbourne Cup. Deputy PM Michael McCormack and his wife used the government jet to get into Tabcorp's Melbourne Cup party, justifying the trip by re-announcing a 3-year-old grant for a sports hall.
+ACTION: 9/12.
+
+---
+
+NAME: PM, Treasurer party trip
+JURISDICTION: Federal
+CATEGORY: Expenses
+COST: $5,000
+SEVERITY: 5
+DESCRIPTION: Scott Morrison and Josh Frydenberg took a taxpayer-funded flight in a private jet to Lachlan Murdoch's Christmas party costing $5k. Parliamentary business? Unlikely. Vested interest, probably.
+ACTION: 4/11.
+
+---
+
+NAME: Lap dancers, wine, non-existent staff
+JURISDICTION: WA
+CATEGORY: Expenses
+SEVERITY: 8
+DESCRIPTION: WA Corruption and Crime Commission reports former MP Phil Edman impeded its investigation and used taxpayer funds for a strip club, wine tours, and an employee who didn't turn up to work for 7 years.
+ACTION: 27/11: WA CCC report.
+
+---
+
+NAME: Berejiklian says rorts OK
+JURISDICTION: NSW
+CATEGORY: Grants
+COST: $250 million
+SEVERITY: 8
+DESCRIPTION: Berejiklian actually says all governments and all oppositions make commitments to the community in order to curry favour - that's part of the political process whether we like it or not. Documents approving Stronger Communities Grants to local councils worth $250m were shredded by the NSW Premier's office.
+ACTION: 27/11.
+
+---
+
+NAME: NCCC conflicts of interest kept secret
+JURISDICTION: Federal
+CATEGORY: Transparency
+SEVERITY: 6
+DESCRIPTION: The COVID-19 Coordination Commissioners have made declarations of conflicts of interest but these will not be made public. Chair Nev Power and Deputy Andrew Liveris are pushing gas interests.
+
+---
+
+NAME: NSW airport rort
+JURISDICTION: NSW
+CATEGORY: Land deals
+COST: $30 million
+SEVERITY: 9
+DESCRIPTION: Land at Badgery Creek worth $3m was purchased for $30m. The owners of the land donated $176,600 to the Liberal Party.
+ACTION: Update 19/11: Morrison government refuses to comply with a Senate order to produce 10 briefs on the controversial purchase.
+
+---
+
+NAME: Bribes paid to councillors for rezoning
+JURISDICTION: Victoria
+CATEGORY: Corruption
+COST: $1 million
+SEVERITY: 9
+DESCRIPTION: Lobbyists linked to the ALP and Libs were paid $500k each and Casey councillors were bribed by a property developer to get a chicken farm zoned for housing in Cranbourne South. The developer donated to the ALP before the last election. Land value increased from $73k to $550m.
+
+---
+
+NAME: Jobs for the boys at the AAT
+JURISDICTION: Federal
+CATEGORY: Jobs for mates
+SEVERITY: 7
+DESCRIPTION: Attorneys-General Porter and Brandis appointed 70 former MPs and staffers to the AAT. Appointee and former staffer Tony Barry admits to having been kicked out of law school.
+
+---
+
+NAME: International job for the Treasurer
+JURISDICTION: Federal
+CATEGORY: Expenses
+COST: $90,300
+SEVERITY: 6
+DESCRIPTION: Mathias Cormann resigned from Parliament to bid for OECD chief, but taxpayers paid for his 21,000km in private jet flights around Europe at $4,300/hour for him and 8 government staff. As at 7 Feb he was on the shortlist of 5 for the $300k a year tax-free salary.
+
+---
+
+NAME: Chris Pyne gets lucrative defence consultancies
+JURISDICTION: Federal
+CATEGORY: Jobs for mates
+SEVERITY: 6
+DESCRIPTION: Former Defence Minister Christopher Pyne waited the requisite 18-month exclusion period but now lobbies on behalf of big defence contractors Elbit Systems, Saber Astronautics, Droneshield and Ethan Group - major suppliers to the ADF. While still in Cabinet he negotiated work with EY consultants.
+
+---
+
+NAME: Palmer again
+JURISDICTION: Queensland
+CATEGORY: Election funding
+SEVERITY: 6
+DESCRIPTION: Clive Palmer lies about 'Labor's death tax' in the Queensland state election. He will likely spend the maximum allowed under new Qld caps on donations and election spending, hoping his business interests will benefit from an LNP government.
+
+---
+
+NAME: Vic rail execs on the take
+JURISDICTION: Victoria
+CATEGORY: Corruption
+COST: $300,000
+SEVERITY: 6
+DESCRIPTION: The Fleet Manager of Metro Trains and the V/Line CEO pocket about $150k each from a cleaning company to cover up poor performance.
+
+---
+
+NAME: Top 40 tax dodgers
+JURISDICTION: Federal
+CATEGORY: Tax
+SEVERITY: 7
+DESCRIPTION: Michael West lists the latest companies that make huge profits and pay little or nothing in tax - and the fossil fuel sector is well represented. ExxonMobil made over $42b over 5 years and paid zero tax.
+
+---
+
+NAME: Daryl Maguire
+JURISDICTION: NSW
+CATEGORY: Corruption
+SEVERITY: 7
+DESCRIPTION: Dodgy property and immigration deals, peddling access to the Premier.
+
+---
+
+NAME: ASIC Chair rorting
+JURISDICTION: Federal
+CATEGORY: Expenses
+COST: $180,000
+SEVERITY: 7
+DESCRIPTION: ASIC Chair James Shipton and his deputy were paid $180,000 to relocate and manage their personal tax affairs - and this is the regulator.
+
+---
+
+NAME: Aust Post watches
+JURISDICTION: Federal
+CATEGORY: Expenses
+COST: $12,000
+SEVERITY: 5
+DESCRIPTION: $12k spent on four Cartier watches for executives - the latest in a long list of executive gifts. Australia Post claims it is a commercial entity even though it is wholly owned by the Commonwealth. The board is stacked with Liberal Party leaders and former MPs.
+ACTION: Update: Government settles unfair dismissal.
+
+---
+
+NAME: JobKeeper rorts
+JURISDICTION: Federal
+CATEGORY: Grants
+SEVERITY: 8
+DESCRIPTION: JobKeeper payments used to pay dividends to shareholders and executive bonuses.
+
+---
+
+NAME: Foxtel bailout
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $40 million
+SEVERITY: 7
+DESCRIPTION: Foxtel received $40m overall for its flagging subscription TV service, supposedly to broadcast women's sport. Foxtel is Murdoch-owned and relentlessly promotes the Coalition. Arguably the Coalition's NBN rollout to the node made it slower and less of a threat to subscription TV. The ABC must pay a licensing fee to rebroadcast.
+
+---
+
+NAME: General Covid pork-barrelling
+JURISDICTION: Federal
+CATEGORY: Grants
+SEVERITY: 8
+DESCRIPTION: Billions spent on projects - regional swimming pools, Regional Growth Fund, Building Better Regions Fund, Urban Congestion Fund, Regional Jobs and Investment Package - which were overwhelmingly in Liberal seats and/or had a dodgy approvals process.
+
+---
+
+NAME: Drought Communities Program
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $14 million
+SEVERITY: 7
+DESCRIPTION: Of the 14 councils awarded funds under this program, 6 did not meet the agricultural employment threshold and 7 did not meet the rainfall deficiency threshold but were awarded $1m each anyway. 13 of the councils were in Coalition seats.
+
+---
+
+NAME: Female Facilities and Water Safety Stream
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $102.5 million
+SEVERITY: 8
+DESCRIPTION: No guidelines, no tender process, no application form. Some recipients first heard about it in the local paper. $102.5 million handed out in grants with no legal authority, by-passing proper process to largely benefit marginal electorates and well-heeled clubs.
+ACTION: Update 19/3: Senate Select Committee inquiry reports on political lines.
+
+---
+
+NAME: Lies about flights
+JURISDICTION: Federal
+CATEGORY: Misleading claims
+COST: $15 million
+SEVERITY: 5
+DESCRIPTION: Angus Taylor falsely claimed the City of Sydney spent $15m on air travel when it was only $6k - but the document relied upon cannot be found.
+
+---
+
+NAME: Aust Border Force
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $39 million
+SEVERITY: 7
+DESCRIPTION: A $39m 'fee' handed out to boat builder Austal to prop up a failing business. Austal donated $20k to the Liberal Party.
+
+---
+
+NAME: $1.3b arms deal
+JURISDICTION: Federal
+CATEGORY: Defence
+COST: $1.3 billion
+SEVERITY: 8
+DESCRIPTION: Government goes to extraordinary lengths to suppress the Auditor-General's report showing cheaper options.
+
+---
+
+NAME: Robodebt
+JURISDICTION: Federal
+CATEGORY: Maladministration
+COST: $2 billion
+SEVERITY: 10
+DESCRIPTION: Centrelink raises about $2 billion in unlawful debts using income averaging. It brought in debt collectors, causing great anxiety, and there were delays in payments. No apology, no acknowledgement of the damage to victims.
+
+---
+
+NAME: Great Barrier Reef fund
+JURISDICTION: Federal
+CATEGORY: Grants
+COST: $430 million
+SEVERITY: 8
+DESCRIPTION: The Coalition awarded a $430m contract to a small, Liberal Party-connected organisation despite an existing, established and well-credentialed group applying for funds. (The real problem for the reef is global warming.)
+
+---
+
+NAME: Helloworld holiday
+JURISDICTION: Federal
+CATEGORY: Conflict of interest
+COST: $1 billion
+SEVERITY: 8
+DESCRIPTION: Helloworld travel agency paid for Finance Minister Mathias Cormann's family holiday to Singapore within two weeks of the Coalition awarding Helloworld a government contract worth over $1 billion. Andrew Burnes, Liberal Party treasurer, is a major shareholder of Helloworld.
