@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+Disallow: /admin
+Disallow: /thank-you
+
+# Non-production build: every response also carries X-Robots-Tag: noindex, nofollow,
+# and no Sitemap is advertised. The live site is https://www.democrats.org.au/
