@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 48" role="img" aria-label="Australian Democrats">
+  <rect x="2" y="6" width="36" height="36" rx="11" fill="#29a895"/>
+  <path d="M12 25 l6 6 l12 -15" fill="none" stroke="#fcd666" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="30" font-family="Archivo, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="-0.4" fill="#16221f">Australian Democrats</text>
+</svg>
