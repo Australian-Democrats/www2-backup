@@ -1,0 +1,38 @@
+# ==================================================================
+#   AUSTRALIAN DEMOCRATS  —  HOMEPAGE POP-UP NOTIFICATIONS
+# ==================================================================
+#
+#   HOW THIS WORKS  (no coding needed):
+#
+#     1.  STATUS:   type   active     to SHOW this pop-up
+#                   type   inactive   to HIDE this pop-up
+#
+#     2.  Edit  TITLE / MESSAGE / BUTTON / LINK  below.
+#
+#     3.  IMAGE:    put a picture in the  "images"  folder
+#                   (right next to this file) and write its
+#                   file name here, e.g.   victoria.webp
+#                   Leave it blank for no picture.
+#
+#     4.  Save the file and commit to GitHub.  Done!
+#
+#   ► To add ANOTHER pop-up, copy a whole block below and
+#     separate it from the next with a line of three dashes:
+#         ---
+# ==================================================================
+
+STATUS: active
+TITLE: Victorian State Election Update
+MESSAGE: We have submitted our application to run as a party in the upcoming Victorian state election! Become a member and help us change politics in Victoria!
+BUTTON: Learn more about our plan for Victoria
+LINK: https://vic.democrats.org.au/
+IMAGE: victoria.webp
+
+---
+
+STATUS: inactive
+TITLE: Example second pop-up
+MESSAGE: This one is hidden. Change STATUS from inactive to active to show it.
+BUTTON: Find out more
+LINK: https://www.democrats.org.au/
+IMAGE:
